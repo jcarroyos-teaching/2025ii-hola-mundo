@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hola Mundo Creativo</title>
+<style>
+    body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    overflow: hidden;
+    }
+    
+    /* Contenedor centrado */
+    .container {
+    text-align: center;
+    position: relative;
+    }
+    
+    /* Estilo del texto */
+    .hello-world {
+    font-size: 4em;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    animation: bounceIn 2s ease-in-out infinite, colorChange 5s infinite;
+    }
+    
+    /* Animación de rebote */
+    @keyframes bounceIn {
+    0% {
+    transform: scale(0);
+    }
+    50% {
+    transform: scale(1.1);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
+    
+    /* Cambios de color en el texto */
+    @keyframes colorChange {
+    0% {
+    color: #ff7e5f;
+    }
+    25% {
+    color: #feb47b;
+    }
+    50% {
+    color: #ff6347;
+    }
+    75% {
+    color: #f36d6f;
+    }
+    100% {
+    color: #ff7e5f;
+    }
+    }
+    
+    </style>
+</head>
+<body>
+<div class="container">
+<h1 class="hello-world">Hola Mundo</h1>
+</div>
+</body>
+</html>
