@@ -15,9 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${baseUrl}/pages/rodrigga.html">rodrigga</a></li>
                     <li><a href="${baseUrl}/pages/samuel.html">samuel</a></li>
                     <li><a href="${baseUrl}/pages/sillydata.html">sillydata</a></li>
-                    <li><a href="${baseUrl}/pages/sillydata.html">jpverahm1</a></li>
-                    <li><a href="${baseUrl}/pages/sillydata.html">paula</a></li>
-                    <li><a href="${baseUrl}/pages/sillydata.html">vpinedapu</a></li>
+                    <li><a href="${baseUrl}/pages/jpverahm1.html">jpverahm1</a></li>
+                    <li><a href="${baseUrl}/pages/paula.html">paula</a></li>
+                    <li><a href="${baseUrl}/pages/vpinedapu.html">vpinedapu</a></li>
                     <!-- Agrega más enlaces según sea necesario -->
                 </ul>
         </div>
