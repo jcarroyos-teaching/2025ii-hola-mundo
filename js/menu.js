@@ -6,9 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const header = document.createElement('header');
     header.innerHTML = `
         <div class="container">
-            <nav>
                 <ul>
-                    <li><a href="${baseUrl}/index.html">Inicio</a></li>
                     <li><a href="${baseUrl}/pages/jcarroyos.html">jcarroyos</a></li>
                     <li><a href="${baseUrl}/pages/aclarosb.html">aclarosb</a></li>
                     <li><a href="${baseUrl}/pages/andrea.html">andrea</a></li>
@@ -17,9 +15,11 @@ document.addEventListener('DOMContentLoaded', function() {
                     <li><a href="${baseUrl}/pages/rodrigga.html">rodrigga</a></li>
                     <li><a href="${baseUrl}/pages/samuel.html">samuel</a></li>
                     <li><a href="${baseUrl}/pages/sillydata.html">sillydata</a></li>
+                    <li><a href="${baseUrl}/pages/sillydata.html">jpverahm1</a></li>
+                    <li><a href="${baseUrl}/pages/sillydata.html">paula</a></li>
+                    <li><a href="${baseUrl}/pages/sillydata.html">vpinedapu</a></li>
                     <!-- Agrega más enlaces según sea necesario -->
                 </ul>
-            </nav>
         </div>
     `;
     document.body.insertBefore(header, document.body.firstChild);
