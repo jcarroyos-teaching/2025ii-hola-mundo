@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formas de hacer links</title>
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+    
+    <style>
+        section {
+            margin-bottom: 20px;
+            display: flex;
+        }
+        img{
+            max-height: 180px;
+            width: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <section>
+        <a href="https://www.example.com">Visita Example</a>
+    </section>
+    
+    <section>
+        <a href="#" onclick="alert('¡Hola Mundo!')">Haz clic aquí para una alerta</a>
+    </section>
+    
+    <section>
+        <a href="#" onmouseover="this.style.color='red'" onmouseout="this.style.color='black'">Pasa el mouse sobre mí</a>
+    </section>
+    
+    <section>
+        <a href="https://www.example.com" target="_blank">Abrir Example en una nueva ventana</a>
+    </section>
+    
+    <section>
+        <a href="#" onclick="miFuncion()">Ejecutar función</a>
+    </section>
+    <section>
+        <img id="imagen" src="./img/kendrick.gif" />
+    </section>
+    <section>
+        <a href="#" onclick="window.location='#'">Usando window.location</a>
+    </section>
+    <section>
+        <a href="#" onclick="swap()">Cambiar imagen</a>
+    </section>
+</div>
+    <script>
+        function miFuncion() {
+            const img = document.getElementById('imagen');
+            if (img.style.width === '50%') {
+                img.style.width = '25%';
+            } else {
+                img.style.width = '50%';
+            }
+        }
+
+        function swap() {
+            const img = document.getElementById('imagen');
+            if (img.src.includes('kendrick.gif')) {
+                img.src = './img/drake.gif';
+            } else {
+                img.src = './img/kendrick.gif';
+            }
+        }
+    </script>
+</body>
+</html>
