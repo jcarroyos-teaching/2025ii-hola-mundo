@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     header.innerHTML = `
         <div class="container">
                 <ul>
-                    <li><a href="${baseUrl}/pages/jcarroyos.html">jcarroyos</a></li>
                     <li><a href="${baseUrl}/pages/aclarosb.html">aclarosb</a></li>
                     <li><a href="${baseUrl}/pages/andrea.html">andrea</a></li>
                     <li><a href="${baseUrl}/pages/blackdanger.html">blackdanger</a></li>
